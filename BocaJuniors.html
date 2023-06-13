@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/1200px-CABJ70.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Boca Juniors</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Boca Juniors</h1>
+        <p>El Club Atlético Boca Juniors es una entidad deportiva argentina, con sede en el barrio de La Boca, Buenos Aires. Fue fundado el 3 de abril de 1905 por seis vecinos adolescentes hijos de italianos. El fútbol masculino es su disciplina más destacada, aunque también compite a nivel profesional, nacional e internacionalmente, en baloncesto, voleibol, futsal, fútbol femenino y balonmano mientras que deportes como el boxeo, judo, karate, taekwondo, gimnasia rítmica y gimnasia artística se practican a nivel amateur. Actualmente se desempeña en la Liga Profesional de Fútbol Argentino.
+        </p>
+        <h2>
+            <iframe width="100%" height="360" src="https://www.youtube.com/embed/D9WJi4H1LNU" title="50 GOLAZOS INOLVIDABLES EN BOCA JUNIORS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div>
+        <form class="form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <form class="form">
+            Boca sale campeon?<br><br>
+           <input type="radio" name="opcion" value="opcion1"> Si<br>
+           <input type="radio" name="opcion" value="opcion2"> Obviamente<br>
+           <input type="radio" name="opcion" value="opcion3"> Claro que si<br>
+           <input type="radio" name="opcion" value="opcion4"> Y si..<br><br>
+           <input type="submit" value="Enviar" onclick="mostrarMensaje()">
+         </form>         
+    </div>
+    <script>
+        function mostrarMensaje() {
+            alert("Boquita Campeon");
+        }
+    </script>
+    <div class="anuncio">
+        <h3>
+            <a href="https://www.mostazaweb.com.ar/">
+            <img src="https://www.baenegocios.com/export/sites/cronica/img/2021/08/04/mostazanotco_1.jpg_1916550547.jpg" >
+            <img src="https://www.mendozachic.com/media/CACHE/images/galerias/3315/mostaza/0a748fc69bb5e1168e3cba9df79c3638.jpg">
+            </a>
+        </h3>
+    </div>
+</body>
+</html>
